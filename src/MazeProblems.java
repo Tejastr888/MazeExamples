@@ -2,9 +2,10 @@ import java.util.Arrays;
 
 public class MazeProblems {
     public static void main(String[] args) {
-        boolean[][] maze={{true,true,true},
-                          {true,true,true},
-                          {true,true,true}};
+        boolean[][] maze={{true,true,true,true},
+                          {true,true,true,true},
+                          {true,true,true,true},
+                          {true,true,true,true}};
         int[][] ar=new int[maze.length][maze[0].length];
 
         maze1("",maze,0,0,1,ar);
